@@ -1,0 +1,31 @@
+{
+  "name": "@clf/tools-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "工具库",
+  "main": "index.js",
+  "engines": {
+    "node": ">=v16.19.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clfeng/tools.git"
+  },
+  "packageManager": "pnpm@7.28.0",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clfeng/tools/issues"
+  },
+  "homepage": "https://github.com/clfeng/tools#readme",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.0.0",
+    "rollup": "^3.17.3",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "tslib": "^2.5.0"
+  }
+}

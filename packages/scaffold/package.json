@@ -1,0 +1,33 @@
+{
+  "name": "@clf/create-scaffold",
+  "version": "0.0.1",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "create-scaffold": "index.js"
+  },
+  "files": [
+    "index.js",
+    "template-*",
+    "dist"
+  ],
+  "description": "项目初始化脚手架",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup --config rollup.config.ts --configPlugin typescript",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=16.19.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clfeng/tools.git",
+    "directory": "packages/scaffold"
+  },
+  "keywords": [],
+  "author": "clfeng",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
