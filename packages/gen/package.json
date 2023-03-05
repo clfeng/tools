@@ -1,0 +1,43 @@
+{
+  "name": "@clf/create-gen",
+  "version": "0.0.1",
+  "license": "MIT",
+  "bin": {
+    "create-gen": "index.js"
+  },
+  "files": [
+    "index.js",
+    "template-*",
+    "dist"
+  ],
+  "description": "项目初始化脚手架",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup --config rollup.config.ts --configPlugin typescript",
+    "watch": "rollup --config rollup.config.ts --configPlugin typescript --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=16.19.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clfeng/tools.git",
+    "directory": "packages/scaffold"
+  },
+  "keywords": [],
+  "author": "clfeng",
+  "devDependencies": {
+    "@types/cross-spawn": "^6.0.2",
+    "@types/minimist": "^1.2.2",
+    "@types/prompts": "^2.4.2",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@clf/create-gen": "^0.0.1",
+    "cross-spawn": "^7.0.3",
+    "kolorist": "^1.7.0",
+    "minimist": "^1.2.8",
+    "prompts": "^2.4.2"
+  }
+}
