@@ -11,6 +11,6 @@ export default defineConfig({
     typescript()
   ],
   watch: {
-    include: ["./src/**"]
+    include: ["./src/index.ts"],
   }
 });

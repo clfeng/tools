@@ -28,6 +28,7 @@ importers:
       prompts: ^2.4.2
       typescript: ^4.9.5
     dependencies:
+      '@clf/create-gen': 'link:'
       cross-spawn: 7.0.3
       kolorist: 1.7.0
       minimist: 1.2.8
@@ -36,17 +37,6 @@ importers:
       '@types/cross-spawn': 6.0.2
       '@types/minimist': 1.2.2
       '@types/prompts': 2.4.2
-      typescript: 4.9.5
-
-  packages/scaffold:
-    specifiers:
-      '@types/minimist': ^1.2.2
-      minimist: ^1.2.8
-      typescript: ^4.9.5
-    dependencies:
-      minimist: 1.2.8
-    devDependencies:
-      '@types/minimist': 1.2.2
       typescript: 4.9.5
 
 packages:

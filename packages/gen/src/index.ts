@@ -179,7 +179,8 @@ const argv = minimist<{
   // 只是为了理解代码，只有 template-vue-ts 模板
   template = 'vue-ts';
   // 使用 pnpm create gen，process.env.npm_config_user_agent 打印输出 npm/8.19.3 node/v16.19.0 darwin x64 workspaces/false
-  const pkgInfo = pkgFromUserAgent(process.env.npm_config_user_agent)
+  const pkgInfo = pkgFromUserAgent(process.env.npm_config_user_agent);
+  console.log('>>> process.env.npm_config_user_agent', process.env.npm_config_user_agent);
   const pkgManager = pkgInfo ? pkgInfo.name : 'npm'
   // 模板目录
   const templateDir = path.resolve(
