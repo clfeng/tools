@@ -24,6 +24,7 @@
   "homepage": "https://github.com/clfeng/tools#readme",
   "devDependencies": {
     "@rollup/plugin-typescript": "^11.0.0",
+    "@types/node": "^18.14.1",
     "rollup": "^3.17.3",
     "rollup-plugin-typescript2": "^0.34.1",
     "tslib": "^2.5.0"
